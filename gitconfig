@@ -1,0 +1,36 @@
+[user]
+  name = Anna Headley
+  email = anna3LC@gmail.com
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%C(yellow)%h%Cblue%d%Creset %s %Cgreen[%an, %ad]%Creset %C(cyan)[%cn, %cd]%Creset' --graph --all --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  tree = log --oneline --graph --decorate --all --color
+  au = !git update-index --assume-unchanged
+  unau = !git update-index --no-assume-unchanged
+  assumed = !git ls-files -v | grep "^[[:lower:]]"
+[core]
+  excludesfile = ~/.gitignore
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+[color "branch"]
+  current = yellow
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red
+  new = cyan
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[push]
+  default = simple
