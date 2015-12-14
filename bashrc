@@ -8,8 +8,10 @@ fi
 # User specific aliases and functions
 EDITOR=vim
 PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
+PATH=$PATH:/usr/local/bin/fits-0.8.4
 PS1="[\u \W \t]\\$ "
 export PS1 EDITOR PATH
+export CLICOLOR=1
 
 function bgrep {
   ag "$@" $(bundle show --paths) .
