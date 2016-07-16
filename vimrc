@@ -1,3 +1,14 @@
+" Gabe says this needs to go at the top.
+" https://github.com/junegunn/vim-plug
+call plug#begin('~/.vim/plugged')
+
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
+
+
 set nocompatible      " We're running Vim, not Vi!
 
 " os x backspace fix
