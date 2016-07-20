@@ -137,3 +137,6 @@ nnoremap <C-H> <C-W><C-H>
 " Open new split panes to right and bottom; feels more natural than Vim's default
 set splitbelow
 set splitright
+
+" fix illegibility problem in vimdiff
+set background=dark
