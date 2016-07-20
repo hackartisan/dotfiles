@@ -7,6 +7,7 @@ fi
 
 # User specific aliases and functions
 EDITOR=vim
+alias bunx='bundle exec'
 PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
 PATH=$PATH:/usr/local/bin/fits-0.8.4
 PS1="[\u \W \t]\\$ "
