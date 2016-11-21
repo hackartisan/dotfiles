@@ -5,7 +5,7 @@ DOTBU=${HOME}/dotbackup
 
 mkdir ${DOTBU}
 
-files=( "bashrc" "gitconfig" "gitignore" "screenrc" "tmux.conf" "vimrc" )
+files=( "bashrc" "gitconfig" "gitignore" "tmux.conf" "vimrc" )
 
 for f in "${files[@]}"
 do
