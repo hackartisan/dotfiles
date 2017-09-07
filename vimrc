@@ -5,9 +5,12 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'othree/yajs.vim', { 'for': 'javascript' }
 
 call plug#end()
 
+" associate *.es6 with javascript filetype
+au BufRead,BufNewFile *.es6 setfiletype javascript
 
 set nocompatible      " We're running Vim, not Vi!
 
