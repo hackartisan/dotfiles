@@ -17,3 +17,6 @@ export CLICOLOR=1
 function bgrep {
   ag "$@" $(bundle show --paths) .
 }
+
+# turn on autocomplete for git branches, commands
+source ~/dotfiles/git-completion.bash
