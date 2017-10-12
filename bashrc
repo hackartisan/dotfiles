@@ -18,6 +18,10 @@ function bgrep {
   ag "$@" $(bundle show --paths) .
 }
 
+function gemfind {
+  find . $(bundle show --paths) -name "*$@*"
+}
+
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # turn on autocomplete for git branches, commands
