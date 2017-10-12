@@ -18,5 +18,7 @@ function bgrep {
   ag "$@" $(bundle show --paths) .
 }
 
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
 # turn on autocomplete for git branches, commands
 source ~/dotfiles/git-completion.bash
