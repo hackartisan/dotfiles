@@ -10,7 +10,7 @@ EDITOR=vim
 alias bunx='bundle exec'
 PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
 PATH=$PATH:/usr/local/bin/fits-0.8.4
-PS1="[\u \h \W \t]\\$ "
+PS1="[\t \W]\\$ "
 export PS1 EDITOR PATH
 export CLICOLOR=1
 
