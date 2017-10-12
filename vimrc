@@ -1,4 +1,4 @@
-" Gabe says this needs to go at the top.
+" Sean says this needs to go at the top.
 " https://github.com/junegunn/vim-plug
 call plug#begin('~/.vim/plugged')
 
