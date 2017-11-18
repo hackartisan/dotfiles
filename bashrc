@@ -5,6 +5,10 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+# set up chruby
+source /usr/local/share/chruby/chruby.sh
+chruby ruby-2.4.2
+
 # User specific aliases and functions
 EDITOR=vim
 alias bunx='bundle exec'
