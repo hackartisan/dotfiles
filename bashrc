@@ -5,10 +5,6 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-# set up chruby
-source /usr/local/share/chruby/chruby.sh
-chruby ruby-2.4.2
-
 # User specific aliases and functions
 EDITOR=vim
 alias bunx='bundle exec'
@@ -30,3 +26,7 @@ function gemfind {
 
 # turn on autocomplete for git branches, commands
 source ~/dotfiles/git-completion.bash
+
+# set up chruby
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
