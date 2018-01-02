@@ -10,7 +10,8 @@ EDITOR=vim
 alias bunx='bundle exec'
 PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
 PATH=$PATH:/usr/local/bin/fits-0.8.4
-PS1="[\t \W]\\$ "
+# Green prompt with time, working dir
+PS1="\[\033[01;32m\][\t \W]\\$ \[\033[0m\]"
 export PS1 EDITOR PATH
 export CLICOLOR=1
 
