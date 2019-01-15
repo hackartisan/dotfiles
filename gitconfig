@@ -37,3 +37,5 @@
   untracked = cyan
 [push]
   default = simple
+[diff "ansible-vault"]
+	textconv = ansible-vault view
