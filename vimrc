@@ -92,7 +92,7 @@ set hlsearch  " highlight search results
 "let loaded_matchparen = 1  " Don't highlight brackets
 
 set ruler " ruler on
-"set nu " Line numbers on
+set nu " Line numbers on
 set noerrorbells  " don't beep
 set vb t_vb= " stops the beeping
 
