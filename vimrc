@@ -163,3 +163,6 @@ let maplocalleader=" "
 " normal mode noremap (as opposed to insert mode noremap)
 nnoremap <localleader>tf :TestFile<CR>
 nnoremap <localleader>tn :TestNearest<CR>
+
+" mapping for fuzzy file search
+nnoremap <localleader>f :Files<CR>
