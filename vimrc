@@ -6,6 +6,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'othree/yajs.vim', { 'for': 'javascript' }
+Plug 'janko-m/vim-test'
 
 call plug#end()
 
@@ -157,3 +158,8 @@ set background=dark
 
 " local leader - for use in filetype specific things
 let maplocalleader=" "
+
+" mappings for vim-test
+" normal mode noremap (as opposed to insert mode noremap)
+nnoremap <localleader>tf :TestFile<CR>
+nnoremap <localleader>tn :TestNearest<CR>
