@@ -154,3 +154,6 @@ set splitright
 
 " fix illegibility problem in vimdiff
 set background=dark
+
+" local leader - for use in filetype specific things
+let maplocalleader=" "
