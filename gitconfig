@@ -15,6 +15,7 @@
   au = !git update-index --assume-unchanged
   unau = !git update-index --no-assume-unchanged
   assumed = !git ls-files -v | grep "^[[:lower:]]"
+  roll = !git add --all && git commit --amend --no-edit
 [core]
   excludesfile = ~/.gitignore
 [color]
