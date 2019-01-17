@@ -8,7 +8,7 @@ fi
 # User specific aliases and functions
 EDITOR=vim
 alias bunx='bundle exec'
-PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/sbin:$PATH
 PATH=$PATH:/usr/local/bin/fits-0.8.4
 # Green prompt with time, working dir
 PS1="\[\033[01;32m\][\t \W (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2))]\\$ \[\033[0m\]"
